@@ -47,7 +47,8 @@ public class petunjuk extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(0, 0, 398, 550);
 
-        setBounds(0, 0, 414, 568);
+        setSize(new java.awt.Dimension(414, 568));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked

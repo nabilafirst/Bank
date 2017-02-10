@@ -47,7 +47,8 @@ public class welcome extends javax.swing.JFrame {
         getContentPane().add(jLabel2);
         jLabel2.setBounds(0, -20, 390, 560);
 
-        setBounds(0, 0, 406, 564);
+        setSize(new java.awt.Dimension(406, 564));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

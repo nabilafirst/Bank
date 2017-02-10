@@ -209,7 +209,8 @@ public class pin extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, -10, 410, 560);
 
-        setBounds(0, 0, 413, 583);
+        setSize(new java.awt.Dimension(413, 583));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClearActionPerformed

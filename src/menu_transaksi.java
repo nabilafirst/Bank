@@ -98,7 +98,8 @@ public class menu_transaksi extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, -10, 400, 550);
 
-        setBounds(0, 0, 411, 576);
+        setSize(new java.awt.Dimension(411, 576));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel12MouseClicked

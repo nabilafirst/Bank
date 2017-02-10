@@ -216,7 +216,8 @@ public class jumlah_lain extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, 0, 410, 550);
 
-        setBounds(0, 0, 414, 586);
+        setSize(new java.awt.Dimension(414, 586));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnEnter1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnter1ActionPerformed

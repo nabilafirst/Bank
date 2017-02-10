@@ -66,7 +66,8 @@ public class berhasil extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, -10, 400, 550);
 
-        setBounds(0, 0, 412, 573);
+        setSize(new java.awt.Dimension(412, 575));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked

@@ -109,7 +109,8 @@ public class penarikan extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, -10, 410, 560);
 
-        setBounds(0, 0, 412, 563);
+        setSize(new java.awt.Dimension(412, 563));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked

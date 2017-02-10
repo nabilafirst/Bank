@@ -35,7 +35,8 @@ public class end extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, 0, 400, 540);
 
-        setBounds(0, 0, 413, 576);
+        setSize(new java.awt.Dimension(413, 576));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**

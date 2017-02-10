@@ -203,7 +203,8 @@ public class transfer extends javax.swing.JFrame {
         getContentPane().add(jLabel2);
         jLabel2.setBounds(0, 0, 410, 550);
 
-        setBounds(0, 0, 414, 584);
+        setSize(new java.awt.Dimension(414, 584));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void no1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_no1ActionPerformed

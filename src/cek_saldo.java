@@ -65,7 +65,8 @@ public class cek_saldo extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, -20, 400, 580);
 
-        setBounds(0, 0, 415, 583);
+        setSize(new java.awt.Dimension(415, 583));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
