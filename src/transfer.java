@@ -277,7 +277,10 @@ public class transfer extends javax.swing.JFrame {
             jOptionPane1.showMessageDialog(null, "Masukkan Angka Dengan Benar!");
         } else if(e % 1000 != 0){
             jOptionPane1.showMessageDialog(null, "Tidak Menerima Uang Kecil!");
-        } else {
+        } else if (tmp - e < 50000) {
+            jOptionPane1.showMessageDialog(null, "Maaf, \nSaldo Anda tidak mencukupi");
+        }
+        else {
             tmp -= e;
             new berhasil(tmp).setVisible(true);
             this.setVisible(false);
